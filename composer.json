@@ -1,0 +1,20 @@
+{
+    "name": "abdul-hadi/mini-contact-form",
+    "description": "This is a contact form plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Abdul Hadi",
+            "email": "abdul.hadi.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Contact\\Form\\" : "includes/"
+        },
+        "files": []
+    }
+}
